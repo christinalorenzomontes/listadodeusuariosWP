@@ -1,0 +1,100 @@
+/*
+Theme Name: Listado de Usuarios
+Author: Christina Lorenzo
+Author URI: Tu Sitio Web
+Description: Un tema para el listado de usuarios en WordPress (Prueba Técnica)
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+html {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+body, h1, h2, h3, p, ul, ol, figure, blockquote {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #fff6db, #fff8e7, #fffaf3, #fffdfc, #ffffff);
+  color: #333;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  color: #333;
+  font-weight: 400;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  color: #333;
+  padding: 5px;
+  text-align: center;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.user-search-form,
+.user-search-form p {
+  padding: 8px;
+}
+.user-search-form button {
+  background-color: #ff7f0e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.user-search-form button:hover {
+  background-color: #ffd166;
+}
+.pagination {
+  text-align: center;
+}
+.pagination span,
+.pagination a {
+  display: inline-block;
+  margin: 0 5px;
+}
+.pagination a {
+  font-weight: bold;
+  padding: 8px 12px;
+}
+table {
+  border: 4px dotted #ff7f0e;
+  border-radius: 8px;
+}
+.td {
+  padding: 16px;
+}
