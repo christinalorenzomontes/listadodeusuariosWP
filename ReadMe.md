@@ -8,12 +8,13 @@ Para instalar y ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clona el repositorio**: 
 
+git clone https://github.com/christinalorenzomontes/listadodeusuariosWP.git
 
 2. **Copia el proyecto a tu servidor web**: 
 Copia todos los archivos del proyecto a la carpeta de tu servidor web local (por ejemplo, en la carpeta htdocs de XAMPP o en la carpeta public_html de MAMP).
 
 3. **Importa la base de datos**:
-Importa el archivo de exportación de la base de datos (`exportacion_basededatos.xml`) en tu servidor de base de datos local (por ejemplo, usando phpMyAdmin).
+Importa el archivo de exportación de la base de datos (`listadodeusuarios.WordPress.2024-02-28.xml`) en tu servidor de base de datos local (por ejemplo, usando phpMyAdmin).
 
 4. **Configura WordPress**:
 - Renombra el archivo `wp-config-sample.php` a `wp-config.php`.
@@ -33,4 +34,3 @@ En la página principal del sitio, verás un listado de usuarios paginado. Puede
 Utiliza el formulario de búsqueda para filtrar los usuarios por nombre, apellido o correo electrónico. Simplemente escribe el término de búsqueda y haz clic en el botón "Buscar".
 
 ¡Disfruta explorando el listado de usuarios! 🎉
-
